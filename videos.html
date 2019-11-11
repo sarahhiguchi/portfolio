@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151904085-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-151904085-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css\html5reset.css">
     <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Kayo Higuchi</title>
-  </head>
-  <body>
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
-    <div class="nav">
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="ads.html">Advertisements</a></li>
-          <li><a href="videos.html">Video</a></li>
-          <li><a href="editorials.html">Editorials</a></li>
-          <li><a href="https://www.kissusa.com/">Kiss USA</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    </head>
+    <body>
+    <nav>
+      <div class="topnav">
+        <div id="myTopnav">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="ads.html">Advertisements</a></li>
+            <li><a class = "active" href="videos.html">Video</a></li>
+            <li><a href="editorials.html">Editorials</a></li>
+            <li><a href="https://www.kissusa.com/">Kiss USA</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     <header id="main">
     <h1>Kayo Higuchi</h1>
-    <p>Nail artist based in New York City working for all types of mediums including fashion shows, photography shoots, video shoots, and more.</p>
-    </header>
+    <!-- <p>Nail artist based in New York City working for all types of mediums including fashion shows, photography shoots, video shoots, and more.</p> -->
+  </header>
+</nav>
+<main>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="container">
+    <div class="work text-block">
+      <a name="work"></a>
+      <h2>Works</h2>
+      <p>Kayo works under the
+        <a href="http://www.bryanbantry.com/kayo-higuchi?category=ALL">Bryan Bantry Agency</a>
+        for part of her career. The agency represents a number of photographers, nail technicians,
+        makeup artists, and fashion directors</p>
+      <p>Some people she has worked with includes Young Thug, Lucky Blue Smith, Camila Cabello, and more.
+      Most of her work is through the Bryan Bantry Agency.</p>
+    </div>
 
     <div class="video1">
-      <h2>Vogue fashion week with Young Thug</h2>
-      <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x37mw4e" allowfullscreen allow="autoplay"></iframe>
+      <iframe title = "vogue fashion week" frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x37mw4e" allowfullscreen allow="autoplay"></iframe>
     </div>
 
     <div class="video2">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/l3Glc968GGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe title = "delvaux" width="480" height="270" src="https://www.youtube.com/embed/l3Glc968GGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-    <div class="video3">
-      <video width="320" height="240" controls="autoplay">
-      <source src="images/SquareVideo.MOV" type="video/mov">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
   </body>
+</main>
 <footer>
   <p>Kayo Higuchi<br/>
     &copy; 2019 Bryan Bantry</p>
@@ -50,3 +67,5 @@
   <a href="https://www.instagram.com/kayo.hc/">Instagram</a>
   <a href="mailto:kayohiguchi@yahoo.com">Email</a>
 </footer>
+</div>
+</html>
